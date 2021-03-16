@@ -4,13 +4,7 @@
     src="/images/logo-mercos-white.svg"
     alt="Logo Mercos Branca"
     title="Logo branca da empresa Mercos"
-    :height="height"
-    :width="width"
+    height="25"
+    width="130"
   />
 </template>
-
-<script>
-export default {
-  props: ['height', 'width'],
-}
-</script>
