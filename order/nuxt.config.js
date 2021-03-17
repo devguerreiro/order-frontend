@@ -4,14 +4,23 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Order',
+    title: 'OrderEasily',
     htmlAttrs: {
       lang: 'en',
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Send order easily' },
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'Faça pedidos facilmente, sem complicação.',
+      },
+      {
+        hid: 'author',
+        name: 'author',
+        content: 'DevGuerreiro <devcorujam@gmail.com>',
+      },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
