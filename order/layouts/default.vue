@@ -13,4 +13,9 @@ body,
   height: 100vh;
   width: 100vw;
 }
+
+html {
+  font-family: 'Montserrat', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+}
 </style>
