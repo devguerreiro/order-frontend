@@ -18,7 +18,7 @@
 export default {
   data: () => ({
     links: [
-      { label: 'Enviar Pedido', url: '#', icon: 'send' },
+      { label: 'Enviar Pedido', url: { name: 'order-send' }, icon: 'send' },
       { label: 'Produtos', url: '#', icon: 'shopping-search' },
       { label: 'Clientes', url: '#', icon: 'account-group' },
     ],

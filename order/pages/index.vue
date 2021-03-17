@@ -4,6 +4,8 @@
       Seja Bem vindo ao
       <strong class="border-b-4 border-mercos-green">OrderEasily</strong>
     </h1>
-    <MercosButton class="my-8 text-2xl" label="Enviar Pedido" />
+    <nuxt-link :to="{ name: 'order-send' }">
+      <MercosButton class="my-8 text-2xl" label="Enviar Pedido" />
+    </nuxt-link>
   </div>
 </template>
