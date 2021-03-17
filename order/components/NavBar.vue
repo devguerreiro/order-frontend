@@ -7,7 +7,7 @@
         <MercosLogo />
       </nuxt-link>
     </div>
-    <div id="mobileNavItems" class="md:hidden">
+    <div id="mobileNavItems" class="md:hidden flex">
       <MercosMobileNavItems :links="links" />
     </div>
     <div id="navItems" class="hidden md:flex flex-1 justify-end items-center">
