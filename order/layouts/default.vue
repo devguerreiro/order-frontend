@@ -1,6 +1,6 @@
 <template>
   <div class="h-full max-w-full flex flex-col">
-    <MercosNavBar />
+    <MercosNavBar class="h-20" />
     <Nuxt class="flex-1" />
   </div>
 </template>
