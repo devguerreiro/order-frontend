@@ -23,4 +23,15 @@ export default () => {
       /* webpackChunkName: 'element-ui-dropdown-item' */ 'element-ui/lib/dropdown-item'
     )
   )
+  Vue.component('ElTable', () =>
+    import(/* webpackChunkName: 'element-ui-table' */ 'element-ui/lib/table')
+  )
+  Vue.component('ElTableColumn', () =>
+    import(
+      /* webpackChunkName: 'element-ui-table-column' */ 'element-ui/lib/table-column'
+    )
+  )
+  Vue.component('ElInput', () =>
+    import(/* webpackChunkName: 'element-ui-input' */ 'element-ui/lib/input')
+  )
 }

@@ -1,7 +1,9 @@
 <template>
   <div class="h-16 px-4 flex justify-between text-white md:px-8">
     <div id="navLogo" class="w-32 flex items-center">
-      <MercosLogo />
+      <nuxt-link :to="{ name: 'index' }">
+        <MercosLogo />
+      </nuxt-link>
     </div>
     <div id="mobileNavItems" v-if="isMobile" class="self-center">
       <el-dropdown trigger="click">
@@ -42,7 +44,7 @@ export default {
   data: () => ({
     links: [
       { label: 'Enviar Pedido', url: '#', icon: 'el-icon-s-order' },
-      { label: 'Produtos', url: '#', icon: 'el-icon-present' },
+      { label: 'Produtos', url: { name: 'products' }, icon: 'el-icon-present' },
       { label: 'Clientes', url: '#', icon: 'el-icon-user-solid' },
     ],
     screenSize: 0,

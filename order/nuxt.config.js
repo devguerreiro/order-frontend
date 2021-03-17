@@ -31,6 +31,9 @@ export default {
     '@/node_modules/element-ui/packages/theme-chalk/src/dropdown.scss',
     '@/node_modules/element-ui/packages/theme-chalk/src/dropdown-menu.scss',
     '@/node_modules/element-ui/packages/theme-chalk/src/dropdown-item.scss',
+    '@/node_modules/element-ui/packages/theme-chalk/src/table.scss',
+    '@/node_modules/element-ui/packages/theme-chalk/src/table-column.scss',
+    '@/node_modules/element-ui/packages/theme-chalk/src/input.scss',
     // element-ui icons
     '@/node_modules/element-ui/packages/theme-chalk/src/icon.scss',
     // project css
