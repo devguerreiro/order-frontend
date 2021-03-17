@@ -1,0 +1,12 @@
+// Import Bulma's core
+@import '~bulma/sass/utilities/_all';
+
+$family-project: 'Montserrat', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+$family-primary: $family-project;
+$text-strong: $white;
+$link: $white;
+
+// Import Bulma and Buefy styles
+@import '~bulma';
+@import '~buefy/src/scss/buefy';

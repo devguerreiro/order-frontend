@@ -26,22 +26,10 @@ export default {
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: [
-    // element-ui components
-    '@/node_modules/element-ui/packages/theme-chalk/src/dropdown.scss',
-    '@/node_modules/element-ui/packages/theme-chalk/src/dropdown-menu.scss',
-    '@/node_modules/element-ui/packages/theme-chalk/src/dropdown-item.scss',
-    '@/node_modules/element-ui/packages/theme-chalk/src/table.scss',
-    '@/node_modules/element-ui/packages/theme-chalk/src/table-column.scss',
-    '@/node_modules/element-ui/packages/theme-chalk/src/input.scss',
-    // element-ui icons
-    '@/node_modules/element-ui/packages/theme-chalk/src/icon.scss',
-    // project css
-    '@/assets/main.css',
-  ],
+  css: ['@/assets/scss/main.scss', '~/assets/css/main.css'],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: ['@/plugins/element-ui'],
+  plugins: [],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: [
@@ -61,6 +49,7 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
+    ['nuxt-buefy', { css: false }],
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
