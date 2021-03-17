@@ -1,13 +1,11 @@
 <template>
   <div
-    class="h-16 px-4 flex justify-between items-center bg-mercos-purple text-white md:px-8"
+    class="px-4 md:px-8 flex justify-between items-center bg-mercos-purple text-white"
   >
     <div id="navLogo" class="w-32 flex items-center">
-      <nuxt-link :to="{ name: 'index' }">
-        <MercosLogo />
-      </nuxt-link>
+      <MercosLogoWithLink :to="{ name: 'index' }" />
     </div>
-    <div id="mobileNavItems" class="md:hidden flex">
+    <div id="mobileNavItems" class="md:hidden flex items-center">
       <MercosMobileNavItems :links="links" />
     </div>
     <div id="navItems" class="hidden md:flex flex-1 justify-end items-center">

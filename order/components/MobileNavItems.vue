@@ -4,8 +4,8 @@
       src="~/assets/icons/icon-menu-sandwich-white.svg"
       alt="Icone Menu"
       title="Icone Sanduiche Menu"
-      height="30"
-      width="30"
+      height="24"
+      width="24"
     />
     <el-dropdown-menu slot="dropdown">
       <el-dropdown-item
