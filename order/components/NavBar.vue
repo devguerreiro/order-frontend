@@ -8,37 +8,10 @@
       </nuxt-link>
     </div>
     <div id="mobileNavItems" class="md:hidden">
-      <el-dropdown trigger="click">
-        <img
-          src="~/assets/icons/icon-menu-sandwich-white.svg"
-          alt="Icone Menu"
-          title="Icone Sanduiche Menu"
-          height="30"
-          width="30"
-        />
-        <el-dropdown-menu slot="dropdown">
-          <el-dropdown-item
-            v-for="(link, index) in links"
-            :key="index"
-            :icon="link.icon"
-          >
-            <nuxt-link :to="link.url">{{ link.label }}</nuxt-link>
-          </el-dropdown-item>
-        </el-dropdown-menu>
-      </el-dropdown>
+      <MercosMobileNavItems :links="links" />
     </div>
     <div id="navItems" class="hidden md:flex flex-1 justify-end items-center">
-      <nav class="w-2/3 xl:w-1/2">
-        <ul class="flex justify-evenly">
-          <li v-for="(link, index) in links" :key="index">
-            <nuxt-link
-              class="border-b-2 rounded-md px-4 hover:bg-mercos-green border-mercos-green flex items-center"
-              :to="link.url"
-              >{{ link.label }}</nuxt-link
-            >
-          </li>
-        </ul>
-      </nav>
+      <MercosNavItems :links="links" />
     </div>
   </div>
 </template>
