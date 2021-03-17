@@ -1,12 +1,19 @@
 // Import Bulma's core
 @import '~bulma/sass/utilities/_all';
 
+// Override variables here
 $family-project: 'Montserrat', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 $family-primary: $family-project;
 $text-strong: $white;
 $link: $white;
 
-// Import Bulma and Buefy styles
-@import '~bulma';
+@import 'bulma/sass/base/_all';
+@import 'bulma/sass/elements/_all';
+@import 'bulma/sass/form/_all';
+@import 'bulma/sass/components/_all';
+@import 'bulma/sass/grid/_all';
+@import 'bulma/sass/layout/_all';
+
+// Import Buefy styles
 @import '~buefy/src/scss/buefy';

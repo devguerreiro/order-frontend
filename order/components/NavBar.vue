@@ -1,8 +1,8 @@
 <template>
   <div
-    class="px-4 md:px-8 flex justify-between items-center bg-mercos-purple text-white"
+    class="px-4 md:px-12 w-full flex justify-between items-center bg-mercos-purple text-white"
   >
-    <div id="navLogo" class="w-32 flex items-center">
+    <div id="navLogo" class="w-1/3 flex justify-center items-center">
       <MercosLogoWithLink :to="{ name: 'index' }" />
     </div>
     <div id="mobileNavItems" class="md:hidden flex items-center">
